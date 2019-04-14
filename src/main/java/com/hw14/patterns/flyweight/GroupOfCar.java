@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class GroupOfCar {
-    Map<String, Car> map = new HashMap<String, Car>();
+    private Map<String, Car> map = new HashMap<String, Car>();
 
     Car getCar(String model) {
         Car car = map.get(model);

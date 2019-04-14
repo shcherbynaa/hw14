@@ -1,6 +1,6 @@
 package com.hw14.patterns.prototype;
 
-public class Transaktion {
+public class Transaction {
     private Money money;
 
     public Money getMoney() throws CloneNotSupportedException {

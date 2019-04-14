@@ -18,4 +18,26 @@ public class Lesson implements Course {
     public void showCourse() {
         System.out.println("Lesson");
     }
+
+    public static class LessonBuilder {
+        private String name;
+        private int classroom;
+
+        public LessonBuilder setName(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public LessonBuilder setClassRoom(int classRoom) {
+            this.classroom = classRoom;
+            return this;
+        }
+
+        Lesson build() {
+            Lesson lesson = new Lesson();
+            lesson.setName(name);
+            lesson.setNumClassRoom(classroom);
+            return lesson;
+        }
+    }
 }
