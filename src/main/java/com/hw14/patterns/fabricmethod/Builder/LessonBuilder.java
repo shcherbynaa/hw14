@@ -20,6 +20,5 @@ public class LessonBuilder {
         lesson.setNumClassRoom(classRoom);
         return lesson;
     }
-
 }
 

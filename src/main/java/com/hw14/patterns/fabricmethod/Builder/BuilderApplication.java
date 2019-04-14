@@ -7,5 +7,4 @@ public class BuilderApplication {
                 .buildClassRoom(2)
                 .build();
     }
-
 }

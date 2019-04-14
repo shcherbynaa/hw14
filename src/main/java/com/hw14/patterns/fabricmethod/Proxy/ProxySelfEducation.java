@@ -8,8 +8,4 @@ public class ProxySelfEducation implements Course{
         System.out.println("proxy");
         course.showCourse();
     }
-
 }
-
-
-//Education education =  new ProxySelfEducation();

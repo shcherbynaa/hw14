@@ -2,8 +2,6 @@ package com.hw14.patterns.fabricmethod.Singleton;
 
 public class Singleton {
 
-    public static int count = 0;
-
     public static Singleton instance = null;
 
     private Singleton() {};
